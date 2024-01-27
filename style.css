@@ -23,8 +23,8 @@
 .calculator form input{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 30px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
     transition: 100ms;
@@ -35,8 +35,8 @@
 .calculator form input:hover{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 5px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
 }
@@ -70,8 +70,8 @@ form .display input{
 .de{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 30px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
     transition: 100ms;
@@ -82,8 +82,8 @@ form .display input{
 .de:hover{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 5px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
 }
