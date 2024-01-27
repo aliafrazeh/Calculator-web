@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body> 
+<div class="container">
+    <div class="calculator">
+        <form>
+            <div class="display">
+                <input type="text" name="display" class="display-input">
+            </div>
+            <span class="result-text"></span>
+
+            <div>
+                <input type="button" id="btn" value="AC" onclick="display.value = ''" style="background: #fef27f;">
+                <input type="button" id="btn" value="%" onclick="display.value += '%'" style="background: #ffd395;">
+                <input type="button" id="btn" value="." onclick="display.value += '.'" style="background: #ffd395;">
+                <input type="button" id="btn" value="÷" onclick="display.value += '÷'" style="background: #ffd395;">
+            </div>
+            <div>
+                <input type="button" id="btn" value="7" onclick="display.value += '7'">
+                <input type="button" id="btn" value="8" onclick="display.value += '8'">
+                <input type="button" id="btn" value="9" onclick="display.value += '9'">
+                <input type="button" id="btn" value="×" onclick="display.value += '×'" style="background: #ffd395;">
+            </div>
+            <div>
+                <input type="button" id="btn" value="4" onclick="display.value += '4'">
+                <input type="button" id="btn" value="5" onclick="display.value += '5'">
+                <input type="button" id="btn" value="6" onclick="display.value += '6'">
+                <input type="button" id="btn" value="-" onclick="display.value += '-'" style="background: #ffd395;">
+            </div>
+            <div>
+                <input type="button" id="btn" value="1" onclick="display.value += '1'">
+                <input type="button" id="btn" value="2" onclick="display.value += '2'">
+                <input type="button" id="btn" value="3" onclick="display.value += '3'">
+                <input type="button" id="btn" value="+" onclick="display.value += '+'" style="background: #ffd395;">
+            </div>
+                <input type="button" id="btn" value="00" onclick="display.value += '00'">
+                <input type="button" id="btn" value="0" onclick="display.value += '0'">
+                <button type="button" id="btn" class="de" onclick="display.value = display.value.toString().slice(0,-1)" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-backspace" viewBox="0 0 16 16">
+                    <path d="M5.83 5.146a.5.5 0 0 0 0 .708L7.975 8l-2.147 2.146a.5.5 0 0 0 .707.708l2.147-2.147 2.146 2.147a.5.5 0 0 0 .707-.708L9.39 8l2.146-2.146a.5.5 0 0 0-.707-.708L8.683 7.293 6.536 5.146a.5.5 0 0 0-.707 0z"/>
+                    <path d="M13.683 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-7.08a2 2 0 0 1-1.519-.698L.241 8.65a1 1 0 0 1 0-1.302L5.084 1.7A2 2 0 0 1 6.603 1zm-7.08 1a1 1 0 0 0-.76.35L1 8l4.844 5.65a1 1 0 0 0 .759.35h7.08a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/>
+                  </svg></button>
+                <input type="button" id="btn" value="=" class="equal" style="background: #ffd395;">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
