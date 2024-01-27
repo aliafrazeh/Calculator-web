@@ -23,9 +23,9 @@
 .calculator form input{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
     transition: 100ms;
     cursor: auto;
@@ -35,8 +35,8 @@
 .calculator form input:hover{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 5px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
 }
@@ -63,9 +63,9 @@ form .display input{
 .de{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
     transition: 100ms;
     cursor: auto;
@@ -75,8 +75,8 @@ form .display input{
 .de:hover{
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 5px;
     box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
 }
